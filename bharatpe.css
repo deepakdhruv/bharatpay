@@ -1,0 +1,129 @@
+.{
+    margin: 0px;
+}
+header{
+    display :flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    right: 20;
+    justify-content:left;
+    background-color: #fff;
+    margin: 0;
+  padding: 0;
+    
+
+}
+.div1{
+    display:flex;
+    flex-direction: row;
+    justify-content:right;
+    font-size: 20px;
+    gap: 30px;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    font-weight: bold;
+    width: fit-content  ;
+    color: black;
+    margin-left: 20%;
+    background-color: white;
+    
+
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+button{
+    font-size: large;
+    border-radius: 5px;
+}
+ main{
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+ }  
+.div2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.img2{
+    border-radius: 20px;
+    
+}
+p{
+    font-size: large;
+}
+.color{
+    color: rgb(51, 100, 173);
+}
+.content{
+    display:inline-block;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #3498db;
+}
+
+.play-store-btn img,
+.app-store-btn img {
+    width: 120px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.login{
+    color:black;
+    border: solid black;
+    background-color: white;
+    padding-left:15px;
+    padding-right: 15px;
+    padding: 8px;
+}
+.login:hover{
+    color:rgb(0, 106, 255);
+    border: solid rgb(0, 106, 255);
+}
